@@ -50,6 +50,17 @@ Example:
 
 ### Query 1: Get all data
 
-```sql
 SELECT * 
 FROM tutorial_billboard_top_100_year_end;
+
+### Query 2: Limit data
+
+SELECT *
+FROM tutorial_billboard_top_100_year_end
+LIMIT 10;
+
+### Query 3: Get specific columns
+
+SELECT artist, song_name
+FROM tutorial_billboard_top_100_year_end;
+
