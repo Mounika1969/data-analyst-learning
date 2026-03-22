@@ -44,7 +44,8 @@ Example:
 
 ## 🔹 First Step in Data Analysis: Retrieving Data
 
-### 🔸 Query 1: Retrieve all data
+
+**### 🔸 Query 1: Retrieve all data**
 
 ```sql
 SELECT * 
@@ -53,7 +54,7 @@ FROM tutorial_billboard_top_100_year_end;
 Use Case:
 Used for initial data exploration.
 
-### 🔸 Query 2: Select specific columns
+**### 🔸 **Query 2: Select specific columns**
 
 ```sql
 SELECT artist, song_name
@@ -62,7 +63,7 @@ FROM tutorial_billboard_top_100_year_end;
 Use Case:
 Reduces unnecessary data load and improves performance.
 
-### 🔸 Query 3: Limit data
+**### 🔸 Query 3: Limit data**
 
 ```sql
 SELECT *
