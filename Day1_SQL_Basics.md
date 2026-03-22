@@ -49,3 +49,25 @@ Example:
 ```sql
 SELECT * 
 FROM tutorial_billboard_top_100_year_end;
+
+Use Case:
+Used for initial data exploration.
+
+### 🔸 Query 2: Select specific columns
+
+```sql
+SELECT artist, song_name
+FROM tutorial_billboard_top_100_year_end;
+
+Use Case:
+Reduces unnecessary data load and improves performance.
+
+### 🔸 Query 3: Limit data
+
+```sql
+SELECT *
+FROM tutorial_billboard_top_100_year_end
+LIMIT 10;
+
+Use Case:
+Preview dataset without loading full table.
