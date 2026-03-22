@@ -1,38 +1,42 @@
-# 📊 Day 1 - SQL Foundations (Data Analyst Perspective)
+# Day 1 - SQL Basics
 
-## 🔹 Objective
-Understand how data is stored and how to retrieve it using SQL.
-
----
-
-## 🔹 What is a Database?
-A database is a structured system used to store and manage data efficiently.
-
-In real-world applications:
-- E-commerce → stores orders, customers
-- Banking → stores transactions
-- Healthcare → stores patient records
-
-Databases allow large-scale data storage with efficient retrieval.
+## Objective
+Today I started learning SQL basics and tried to understand how data is stored and how we can retrieve it.
 
 ---
 
-## 🔹 What is SQL?
-SQL (Structured Query Language) is used to interact with relational databases.
+## What is a Database?
 
-It allows:
-- Data retrieval (SELECT)
-- Data manipulation (INSERT, UPDATE, DELETE)
-- Data analysis (aggregations, filtering)
+A database is basically a place where data is stored in an organized way.
+
+For example:
+- In e-commerce, it stores customer and order details  
+- In banking, it stores transactions  
+- In hospitals, it stores patient records  
+
+So instead of keeping data randomly, everything is structured properly.
 
 ---
 
-## 🔹 Understanding Table Structure
+## What is SQL?
 
-Data is stored in tables with:
+SQL is a language used to work with databases.
 
-- Rows → Individual records  
-- Columns → Attributes of data  
+Using SQL we can:
+- get data (SELECT)
+- add data (INSERT)
+- update data (UPDATE)
+- delete data (DELETE)
+
+---
+
+## Table Understanding
+
+Data inside a database is stored in tables.
+
+Each table has:
+- Rows → actual records  
+- Columns → details about the data  
 
 Example:
 
@@ -42,33 +46,10 @@ Example:
 
 ---
 
-## 🔹 First Step in Data Analysis: Retrieving Data
+## First Step: Retrieving Data
 
-
-**### 🔸 Query 1: Retrieve all data**
+### Query 1: Get all data
 
 ```sql
 SELECT * 
 FROM tutorial_billboard_top_100_year_end;
-
-Use Case:
-Used for initial data exploration.
-
-**### 🔸 **Query 2: Select specific columns**
-
-```sql
-SELECT artist, song_name
-FROM tutorial_billboard_top_100_year_end;
-
-Use Case:
-Reduces unnecessary data load and improves performance.
-
-**### 🔸 Query 3: Limit data**
-
-```sql
-SELECT *
-FROM tutorial_billboard_top_100_year_end
-LIMIT 10;
-
-Use Case:
-Preview dataset without loading full table.
