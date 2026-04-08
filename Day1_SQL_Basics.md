@@ -64,3 +64,9 @@ LIMIT 10;
 SELECT artist, song_name
 FROM tutorial_billboard_top_100_year_end;
 
+## Key Practice Areas
+
+- Filtering data using WHERE
+- Handling duplicates using DISTINCT
+- Using aggregate functions
+- Sorting using ORDER BY
