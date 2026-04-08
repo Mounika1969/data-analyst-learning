@@ -1,4 +1,4 @@
-# 📊 Day 2 - SQL Practice (HackerRank)
+# Day 2 - SQL Practice (HackerRank)
 
 ## Objective
 Practiced SQL problems from HackerRank to improve query writing and problem-solving skills.
