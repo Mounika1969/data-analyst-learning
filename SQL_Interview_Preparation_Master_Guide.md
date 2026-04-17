@@ -255,7 +255,7 @@ Real Business Examples
 ----------------------------------------------------------
 
 🛒 Top 5 Customers by Spend
------------------------------
+
 
 SELECT customer_name, total_spend
 FROM customers
@@ -263,13 +263,13 @@ ORDER BY total_spend DESC
 LIMIT 5;
 
 📦 Unique Delivery Cities
------------------------------
+
 
 SELECT DISTINCT city
 FROM orders;
 
 👨‍💼 High Paid Employees
------------------------------
+
 
 SELECT emp_name, salary
 FROM employees
@@ -277,7 +277,7 @@ WHERE salary > 70000
 ORDER BY salary DESC;
 
 💳 Latest 10 Transactions
------------------------------
+
 
 SELECT *
 FROM transactions
@@ -285,7 +285,7 @@ ORDER BY txn_date DESC
 LIMIT 10;
 
 🌍 Active Customers from Pune
------------------------------
+
 
 SELECT customer_name, city
 FROM customers
@@ -298,27 +298,27 @@ Powerful Query Combinations
 ----------------------------------------------------------
 
 SELECT + WHERE
------------------------------
+
 
 SELECT *
 FROM employees
 WHERE department = 'HR';
 
 SELECT + DISTINCT
------------------------------
+
 
 SELECT DISTINCT country
 FROM customers;
 
 SELECT + ORDER BY
------------------------------
+
 
 SELECT *
 FROM sales
 ORDER BY revenue DESC;
 
 SELECT + WHERE + ORDER BY
------------------------------
+
 
 SELECT *
 FROM products
@@ -326,7 +326,7 @@ WHERE category = 'Electronics'
 ORDER BY price DESC;
 
 SELECT + WHERE + ORDER BY + LIMIT
------------------------------
+
 
 SELECT *
 FROM customers
@@ -335,7 +335,7 @@ ORDER BY spend DESC
 LIMIT 5;
 
 SELECT + Alias
------------------------------
+
 
 SELECT emp_name AS Employee,
        salary AS Income
