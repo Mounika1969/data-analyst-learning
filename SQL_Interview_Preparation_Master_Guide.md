@@ -1,10 +1,10 @@
-# 1️⃣ SELECT
+1️⃣ SELECT
 
-## 📖 Concept
+📖 Concept
 
 `SELECT` is used to retrieve data from one or more columns in a table.
 
-## ✅ Syntax
+✅ Syntax
 
 
 SELECT column_name
